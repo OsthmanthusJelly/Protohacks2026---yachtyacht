@@ -1,0 +1,107 @@
+[
+  {
+    "task_id": 1,
+    "file_path": "src/ReplicatedStorage/Config/GameConfig.luau",
+    "description": "Defines global game constants, currency types, location definitions (Bloxburg Riviera, Adopt Me Atoll, Robloxia Port, Classic Islands), boat stats, pricing tiers, gacha drop rates, and NPC multiplier values.",
+    "dependencies": [],
+    "exports": ["GameConfig"]
+  },
+  {
+    "task_id": 2,
+    "file_path": "src/ReplicatedStorage/Modules/Network/RemoteEvents.luau",
+    "description": "Initializes and exports centralized RemoteEvents and RemoteFunctions for client-server communication (tycoon purchasing, ferry missions, yacht rentals, gacha rolling, customization, and party mode access).",
+    "dependencies": [1],
+    "exports": ["RemoteEvents"]
+  },
+  {
+    "task_id": 3,
+    "file_path": "src/ServerScriptService/Services/DataStoreService.luau",
+    "description": "Handles player data lifecycle using ProfileService or standard DataStores. Saves progression tiers, unlocked boats, customized wraps, secret island discoveries, gacha items, and cash balances.",
+    "dependencies": [1],
+    "exports": ["DataManager"]
+  },
+  {
+    "task_id": 4,
+    "file_path": "src/ServerScriptService/Services/TycoonService.luau",
+    "description": "Manages player dock progression, physical button unlocks (from starter wooden dock to private island), and passive money generator loops.",
+    "dependencies": [1, 2, 3],
+    "exports": ["TycoonService"]
+  },
+  {
+    "task_id": 5,
+    "file_path": "src/ServerScriptService/Services/SecretDiscoveryService.luau",
+    "description": "Monitors hidden collectible touches on remote islands, verifies one-time claims via DataManager, and awards secret monetary bonuses to players.",
+    "dependencies": [1, 2, 3],
+    "exports": ["SecretDiscoveryService"]
+  },
+  {
+    "task_id": 6,
+    "file_path": "src/ServerScriptService/Services/FerryMissionService.luau",
+    "description": "Handles NPC passenger spawning at docks, board/unboard logic, destination assignment, and payout calculations scaled by distance and boat capacity.",
+    "dependencies": [1, 2, 3, 4],
+    "exports": ["FerryMissionService"]
+  },
+  {
+    "task_id": 7,
+    "file_path": "src/ServerScriptService/Services/YachtRentalService.luau",
+    "description": "Manages passive yacht rental states. Calculates recurring rental income based on boat tier, visual customization bonuses, and hired booking manager NPCs.",
+    "dependencies": [1, 2, 3, 4],
+    "exports": ["YachtRentalService"]
+  },
+  {
+    "task_id": 8,
+    "file_path": "src/ServerScriptService/Services/VehiclePhysicsService.luau",
+    "description": "Controls vehicle seating and server-side boat spawning (from starter rowboat to mega-yachts) with custom VectorForce/VehicleSeat physics.",
+    "dependencies": [1, 2],
+    "exports": ["VehiclePhysicsService"]
+  },
+  {
+    "task_id": 9,
+    "file_path": "src/ServerScriptService/Services/CustomizationService.luau",
+    "description": "Receives color wraps, LED lighting parameters, flag decals, and interior themes from client UI, applies them to yacht models, and replicates to all players.",
+    "dependencies": [1, 2, 3],
+    "exports": ["CustomizationService"]
+  },
+  {
+    "task_id": 10,
+    "file_path": "src/ServerScriptService/Services/GachaService.luau",
+    "description": "Processes Gacha rolls for crew and pets using weighted probability tables, manages inventory storage, and calculates active total multipliers applied to income.",
+    "dependencies": [1, 2, 3],
+    "exports": ["GachaService"]
+  },
+  {
+    "task_id": 11,
+    "file_path": "src/ServerScriptService/Services/PartyModeService.luau",
+    "description": "Handles island and yacht access permissions (public/friends/private), teleports guests, and manages server-validated grid placement for interior furniture.",
+    "dependencies": [1, 2, 3, 4],
+    "exports": ["PartyModeService"]
+  },
+  {
+    "task_id": 12,
+    "file_path": "src/StarterPlayer/StarterPlayerScripts/Controllers/FerryHUDController.luau",
+    "description": "Client script that renders destination HUD waypoints, passenger boarding prompts, distance indicators, and completion popups for ferry runs.",
+    "dependencies": [1, 2, 6],
+    "exports": ["FerryHUDController"]
+  },
+  {
+    "task_id": 13,
+    "file_path": "src/StarterPlayer/StarterPlayerScripts/Controllers/CustomizationUIController.luau",
+    "description": "Client UI controller driving color pickers, LED toggles, interior theme selectors, and flag upload prompts, sending network requests to CustomizationService.",
+    "dependencies": [1, 2, 9],
+    "exports": ["CustomizationUIController"]
+  },
+  {
+    "task_id": 14,
+    "file_path": "src/StarterPlayer/StarterPlayerScripts/Controllers/PetFollowerController.luau",
+    "description": "Client-side smooth lerp/pathfinding controller that animates equipped Gacha pets following behind the player character.",
+    "dependencies": [1, 2, 10],
+    "exports": ["PetFollowerController"]
+  },
+  {
+    "task_id": 15,
+    "file_path": "src/StarterPlayer/StarterPlayerScripts/Controllers/PartyPlacementController.luau",
+    "description": "Client-side grid placement system for arranging furniture and party assets (DJ booths, dance floors, disco lights) inside yacht cabins.",
+    "dependencies": [1, 2, 11],
+    "exports": ["PartyPlacementController"]
+  }
+]
