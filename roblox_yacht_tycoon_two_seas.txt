@@ -1,0 +1,254 @@
+ROBLOX YACHT TYCOON - GAMEPLAY IDEAS
+====================================
+
+CORE GAMEPLAY DIRECTION
+-----------------------
+Build a yacht empire, explore dangerous waters, fight ocean entities, collect rare loot, and show off customized yachts with friends.
+
+
+THE TWO SEAS
+============
+The world is split into two seas. Each sea has its own purpose, rules, and regions.
+
+SEA 1: THE GOLDEN SEA (COMMERCIAL AND LUXURY)
+---------------------------------------------
+Purpose: earn money, build the yacht business, customize, and socialize. No PvP.
+
+Rules:
+- Full PvP-off zone. Players cannot damage each other's yachts.
+- Only light, non-lethal hazards (storms that slow you, reefs that scratch paint).
+- Yachts cannot be sunk here, so there is no sinking fee in this sea.
+
+Regions:
+- Starter Bay: Safe harbor for new players to build their first yacht and learn the controls.
+- Palm Paradise: Tropical beaches, small islands, and buried treasure.
+- Neon Marina: Flashy city harbor with expensive yachts, nightlife, and premium shops.
+
+Activities:
+- Passenger and charter missions (tourists, VIP guests, wedding cruises).
+- Cargo and delivery runs between marinas.
+- Luxury marinas with dealerships, upgrade shops, and cosmetic stores.
+- Yacht Party Mode, customization, and showing off yachts.
+- Fishing, water sports, and treasure hunting on safe islands.
+- Daily business contracts for steady income.
+
+Income role: the main source of steady cash used to buy yachts and fund combat upgrades.
+
+SEA 2: THE STORM SEA (COMBAT, BOSSES, AND PVP)
+----------------------------------------------
+Purpose: fight, loot, and compete. High risk, high reward.
+
+Rules:
+- PvP is enabled outside of safe ports.
+- Yachts can be sunk by players or enemies (see Ship Sinking and Replacement Costs).
+- Each region has a small safe port for repairs and respawning.
+
+Regions:
+- Pirate's Reach: Pirate ships, wrecks, and hostile raiders.
+- Frostbite Fjord: Frozen islands and rare creatures.
+- Volcano Atoll: Dangerous waters and valuable materials.
+- Atlantis Trench: Endgame region with ancient ruins and powerful bosses.
+- The Arena Waters: Dedicated PvP zone for duels and team battles.
+
+Activities:
+- Ocean entity hunting and world bosses.
+- Pirate fleets, ghost ships, and dynamic combat events.
+- PvP duels, team battles, and bounty hunting on top players.
+- Secret islands, boss lairs, and rare loot.
+- Combat-only materials needed for top-tier weapons and armor.
+
+Income role: lower steady income, but the only source of rare materials, boss drops, trophies, and combat cosmetics.
+
+TRAVEL BETWEEN SEAS
+-------------------
+- The seas are connected by a gateway (for example, a storm wall or a guarded strait).
+- Entering the Storm Sea requires a minimum yacht tier and at least one weapon installed.
+- A warning screen explains PvP and sinking costs before the player crosses.
+- Players can fast-travel back to their home port in the Golden Sea.
+
+SHARED PROGRESSION
+------------------
+- Commercial profits from the Golden Sea pay for yachts, weapons, armor, and repairs.
+- Combat rewards from the Storm Sea (rare materials, crew, pets, cosmetics) improve yachts and boost business income.
+- Some luxury items (rare furniture, trophies, exclusive paint) can only be crafted from Storm Sea drops.
+
+
+PVP SYSTEMS
+===========
+
+SHIP SINKING AND REPLACEMENT COSTS
+----------------------------------
+- When a player's yacht is sunk in combat, the replacement or respawn cost is 20% of the yacht's original purchase price.
+- Example: If a yacht originally costs $100,000, the player pays $20,000 to replace it after sinking.
+- Calculate the fee using the yacht's original purchase price, not its upgraded value or current resale value.
+- Upgrades, weapons, cosmetics, and other modifications do not increase the sinking fee.
+- Display the replacement cost before players purchase a yacht so they understand the risk.
+- Safe-zone accidents and sinking caused by bugs should not charge the player.
+- Consider a short protection period after respawning to prevent repeated sinking by other players.
+
+
+ROBLOX-THEMED LOCATIONS AND SECRET ISLANDS
+==========================================
+Create distinct themed ocean regions instead of using real-world luxury destinations. Regions are listed under The Two Seas above.
+
+Secret island rewards:
+- Hidden treasure chests that award cash.
+- Secret caves containing rare crew members or pets.
+- Ancient artifacts that provide permanent or temporary bonuses.
+- Hidden boss lairs with exclusive drops.
+- Collectibles that unlock yacht skins, flags, furniture, or titles.
+
+Some islands can require a faster yacht, better weapons, a special key, or defeating an island guardian.
+
+
+SKILLED STAFF AND OPERATIONS
+============================
+Let players hire captains, crew, mechanics, booking managers, and hospitality staff.
+- Captains can improve yacht speed, handling, or income.
+- Mechanics can reduce repair costs and repair damage faster.
+- Security crew can improve combat damage or yacht defense.
+- Hospitality staff can increase party income, tips, or guest satisfaction.
+- DJs and entertainers can improve party rewards.
+
+Make each crew member have a distinct ability so players have meaningful choices instead of only selecting the character with the biggest multiplier.
+
+
+PREMIUM CUSTOMER EXPERIENCE
+===========================
+Offer yacht interiors and services that make players' yachts feel unique.
+- Interior furniture themes and decorations.
+- Food, drinks, music, and party activities.
+- Water sports and swimming areas.
+- VIP rooms and premium guest experiences.
+- Guest tips or party rewards based on yacht quality and activities.
+
+
+YACHT PARTY MODE
+================
+Allow players to invite friends onto their yacht to hang out (Golden Sea only).
+- Customize the interior and furniture.
+- Add speakers, dance floors, lights, pools, and decorations.
+- Let guests dance, sit, swim, and interact with objects.
+- Give the owner small rewards for hosting parties, with limits to prevent AFK farming.
+- Add privacy controls so owners can choose who can board.
+
+
+GACHAS / LUCK: CREW AND PET HIRING
+==================================
+Add a hiring or collection system for captains, crew, and yacht pets.
+- Common, Rare, Epic, Legendary, and Mythic tiers.
+- Legendary captains can be inspired by fictional Roblox-style characters or original game lore.
+- Celebrity DJs can improve party rewards.
+- Pets can follow players around the dock or yacht and provide bonuses.
+
+Example crew:
+- Legendary Captain: Improves yacht speed and cash income.
+- Pirate Hunter: Deals extra damage to pirate enemies.
+- Deep-Sea Researcher: Improves rare entity and treasure detection.
+- Celebrity DJ: Increases party rewards.
+- Master Mechanic: Reduces repair costs.
+
+Example pets:
+- Captain Doge: Small income bonus.
+- Golden Dolphin: Improves swimming or treasure detection.
+- Party Monkey: Boosts party rewards.
+- Baby Kraken: Adds a small bonus to ocean combat rewards.
+
+Keep bonuses balanced. A 5x income multiplier or a pet bonus of +500% can make progression too fast, so reserve very powerful bonuses for late-game content and consider diminishing returns. If players spend Robux on randomized rewards, clearly disclose odds and follow Roblox's current rules.
+
+
+MODULAR YACHT CUSTOMIZATION
+===========================
+Let players personalize their yachts with:
+- Color wraps and paint jobs.
+- LED lighting and neon effects.
+- Interior furniture themes.
+- Flag designs and decals.
+- Furniture placement and room layouts.
+- Weapon skins and engine effects.
+- Rare cosmetics earned from bosses, exploration, and events.
+
+
+DRIVEABLE YACHTS
+================
+Make completed yachts driveable so players can explore the map.
+- Different yachts have different speed, handling, durability, and cargo capacity.
+- Larger yachts can carry stronger weapons but may turn more slowly.
+- Smaller yachts can be faster and better at dodging.
+- Add docking areas, safe zones, and travel routes.
+- Give players a clear reward when a new yacht is completed.
+
+
+OCEAN ENTITIES AND COMBAT (STORM SEA)
+=====================================
+Add hostile entities to make exploring the ocean exciting and give players reasons to upgrade their yachts.
+
+Enemy tiers:
+- Common: Shark Swarms, Aggressive Barracudas, Pirate Raiders.
+- Rare: Armored Sharks, Sea Serpents, Ghost Ships.
+- Epic: Giant Squid, Phantom Fleet, Reef Golem.
+- Legendary: Kraken, Leviathan, Ancient Sea Dragon.
+- World Bosses: Huge enemies that require multiple players or well-upgraded yachts.
+
+Combat options:
+- Yacht-mounted cannons and machine guns.
+- Torpedoes, harpoons, and special abilities.
+- Armor plating, shields, and repair tools.
+- Radar to locate nearby entities.
+- Crew members that improve damage, defense, aiming, or repair speed.
+- Different enemy weaknesses so one weapon setup is not best against everything.
+
+Enemy behavior:
+- Some enemies patrol specific regions.
+- Some attack only when players enter their territory.
+- Some flee when badly damaged.
+- Bosses use telegraphed attacks that players can dodge.
+- Rare enemies can appear during storms, at night, or during special events.
+
+Rewards for defeating entities:
+- Cash and experience.
+- Upgrade materials.
+- Rare crew members and pets.
+- Yacht skins, flags, and weapon cosmetics.
+- Boss trophies and titles.
+- Keys or clues that lead to secret islands.
+
+Make rewards scale with enemy difficulty. Avoid letting players farm a weak enemy for better rewards than challenging bosses.
+
+
+DYNAMIC OCEAN EVENTS
+====================
+Add random events to keep the ocean active.
+- Pirate fleets attack ships in a region.
+- A rare creature appears for a limited time.
+- A treasure convoy needs protection or can be raided.
+- A storm reveals hidden wrecks or rare entities.
+- A server-wide boss appears and players cooperate to defeat it.
+- A supply ship arrives at a random island.
+
+Announce major events to everyone in the server. Give players enough time to travel to the event and reward everyone who meaningfully participates.
+
+
+PROGRESSION AND BALANCE
+=======================
+Connect all the systems together:
+1. Earn money from the yacht business in the Golden Sea.
+2. Buy a better yacht and upgrade its equipment.
+3. Cross into the Storm Sea and explore more dangerous regions.
+4. Fight stronger entities and find secret islands.
+5. Earn rare materials, crew, pets, and cosmetics.
+6. Improve the yacht and earn money more efficiently.
+7. Work toward endgame yachts, regions, and world bosses.
+
+
+IMPORTANT DESIGN TIPS
+=====================
+- Give players active things to do instead of making them wait for money.
+- Make exploration and combat useful for tycoon progression.
+- Keep early areas safe and easy to understand.
+- Make rare rewards exciting but not necessary for basic progress.
+- Balance income multipliers so they do not make the game trivial.
+- Make combat readable and fair, with clear warnings before powerful attacks.
+- Let friends cooperate without allowing stronger players to ruin new players' experience.
+- Use original characters and lore rather than relying entirely on copyrighted characters.
+- Keep the main loop simple: earn, upgrade, explore, fight, collect, and expand.

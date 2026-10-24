@@ -2,7 +2,7 @@
   {
     "task_id": 1,
     "file_path": "src/ReplicatedStorage/Config/GameConfig.luau",
-    "description": "Defines global game constants, currency types, location definitions (Bloxburg Riviera, Adopt Me Atoll, Robloxia Port, Classic Islands), boat stats, pricing tiers, gacha drop rates, and NPC multiplier values.",
+    "description": "Defines global game constants, currency types, location definitions (Coral Riviera, Lagoon Atoll, Robloxia Port, Classic Islands), boat stats, pricing tiers, gacha drop rates, and NPC multiplier values.",
     "dependencies": [],
     "exports": ["GameConfig"]
   },
