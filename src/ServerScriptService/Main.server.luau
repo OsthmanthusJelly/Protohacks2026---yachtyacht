@@ -8,8 +8,12 @@ World setup the services expect (build these in Studio):
   ReplicatedStorage.Pets/<id>, ReplicatedStorage.Furniture/<id>   optional models
   Tags: "FerryDock" and "BoatSpawn" parts (attribute Location), "SecretCollectible" parts (attribute SecretId)
 Missing optional models fall back to plain parts.
+If workspace.Plots doesn't exist, WorldBuilder generates all of the above.
 ]]
 local Services = script.Parent.Services
+
+-- Must run before services start: they scan the world for plots and tagged parts.
+require(Services.WorldBuilder).Build()
 
 local DataManager = require(Services.DataStoreService)
 local services = {

@@ -142,6 +142,8 @@ local function addSpawnPrompt(part: Instance)
 	local prompt = Instance.new("ProximityPrompt")
 	prompt.ActionText = "Spawn / dock boat"
 	prompt.ObjectText = "Boat Spawn"
+	prompt.MaxActivationDistance = 30 -- spawn points sit out in the water, reachable from the dock
+	prompt.RequiresLineOfSight = false
 	prompt.Parent = part
 	-- shortcut: always spawns the best non-rented boat; add a boat picker UI when players want to choose.
 	prompt.Triggered:Connect(function(player)
